@@ -63,7 +63,7 @@
 								<td>${orders.productCount}</td>
 								<td>${orders.money}</td>
 								<td>${orders.createTime}</td>
-								<td>${orders.userRealName}</td>
+								<td>${orders.userid}</td>
 								<td>
 									<a href="#" target="_blank" class="layui-btn layui-btn-normal layui-btn-mini">预览</a>
 									<a href="${pageContext.request.contextPath}/ordersServletUpdate?toid=${orders.toid}" class="layui-btn layui-btn-mini">编辑</a>
